@@ -1,3 +1,52 @@
 #collapse navbar-collapse {
   text-align: right;
 }
+
+#hero {
+  background-image: url(../images/skyhigh-adventures-hero-image.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+ }
+
+:root {
+  --primary-color: #fad000;
+}
+
+.btn-warning {
+    --bs-btn-color: black;
+    --bs-btn-border-color: #7d6901;
+    --bs-btn-hover-bg: #ffc107;
+    --bs-btn-hover-border-color: #ffc107;
+    --bs-btn-active-bg: #fad000;
+    --bs-btn-active-border-color: #fad000;
+    --bs-btn-disabled-color: #fad000;
+    --bs-btn-bg: #fad000;
+}
+
+.btn-outline-warning {
+  --bs-btn-color: #fad000;
+  --bs-btn-border-color: #fad000;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #fad000;
+  --bs-btn-hover-border-color: #fad000;
+  --bs-btn-focus-shadow-rgb: 255,193,7;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-bg: #fad000;
+  --bs-btn-active-border-color: #fad000;
+  --bs-btn-disabled-color: #fad000;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #fad000;
+  --bs-gradient: none;
+}
+
+
+
+ /* @include media-breakpoint-only(xs,sm) {
+  .hero {
+    text-color: black;
+    display: none;
+  }
+ } */
+/* @include media-breakpoint-up(md) */
